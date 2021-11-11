@@ -86,6 +86,7 @@ If none of the COM ports work correctly or you can't find any COM Port, you migh
 The driver you need depends on the UART (USB to Serial) chip that is used on your development board.
 Those are the drivers of the most used chips:
 
-💾 CP2102
-💾 CH340
+💾 CP2102 - https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+
+💾 CH340 - https://sparks.gogo.co.nz/ch340.html
 
