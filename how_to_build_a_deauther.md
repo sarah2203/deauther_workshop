@@ -57,11 +57,11 @@ The Port should become available once the board has been plugged in. If it does 
 
 Once everything has been set-up, you can verify that the code you have opened compiles correctly. Select the tick and hope that it does not error...
 
-<ADD SCREENSHOT>
+![image](https://user-images.githubusercontent.com/22979329/141375355-c8c14413-770e-4f6a-a75f-498adc65c94d.png)
 
 If everything compiles correctly continue to upload the code to the board.
   
-< ADD SCREENSHOT >
+![image](https://user-images.githubusercontent.com/22979329/141375423-40a50ba6-99fe-4291-9c18-79b8d5d7ec36.png)
   
 This should work automatically. However, if not speak to Sarah or check the Troubleshooting heading.
 
@@ -73,5 +73,19 @@ Once connected, go to the IP `192.168.4.1`. This is the default IP for APs in Ar
 
 # Troubleshooting
 
-< ADD MORE HERE >
+Errors I have seen:
+
+Python errors may mean you need to update your Python package to python 3 below is an example
+
+`fork/exec /Users/seb/Library/Arduino15/packages/deauther/tools/python3/3.7.2-post1/python3: no such file or directory
+Error compiling for board NodeMCU.`
+
+Other errors may mean you are missing drivers. This snippet is stolen from Spacehuhn:
+
+If none of the COM ports work correctly or you can't find any COM Port, you might need to install the drivers.
+The driver you need depends on the UART (USB to Serial) chip that is used on your development board.
+Those are the drivers of the most used chips:
+
+💾 CP2102
+💾 CH340
 
