@@ -33,4 +33,45 @@ Type in deauther and the boards package - Deauther ESP8266 Boards - should appea
 
 Install the package.
 
+Choose the correct board settings. Go to `Tools` > `Board` and select the appropriate board from `Deauther ESP8266 Boards`.
+
+Select the upload speed (baud rate).
+
+Select the flash size.
+
+Select the `Erase all flash contents`. This is so anything flashed previously is deleted. Nothing can then mess with our flasing.
+
+Select the deauther config.
+
+An example config for the Wemos D1 Mini boards has been outlined below.
+
+![image](https://user-images.githubusercontent.com/22979329/141307640-289fc1af-d259-4581-825b-535a16ddba3b.png)
+
+This only changes slightly for the NodeMCU boards.
+
+![image](https://user-images.githubusercontent.com/22979329/141307989-aeff61ba-3b53-41a4-93f6-55698b8cdcd1.png)
+
+The Port should become available once the board has been plugged in. If it does not show after plugging the board into your laptop, then you may have issues with your drivers. More information on this can be found under the troubleshooting heading.
+
+# Verifying and Uploading the Code
+
+Once everything has been set-up, you can verify that the code you have opened compiles correctly. Select the tick and hope that it does not error...
+
+<ADD SCREENSHOT>
+
+If everything compiles correctly continue to upload the code to the board.
+  
+< ADD SCREENSHOT >
+  
+This should work automatically. However, if not speak to Sarah or check the Troubleshooting heading.
+
+Once all is flashed successfully you should be able to see if in your Wi-Fi listings.
+Select the AP and connect. Authenticate with the password `deauther`.
+Once connected, go to the IP `192.168.4.1`. This is the default IP for APs in Arduino IDE. You should see Spacehuhn's awesome code!
+(Make sure your board is still plugged in after flashing)
+
+
+# Troubleshooting
+
+< ADD MORE HERE >
 
